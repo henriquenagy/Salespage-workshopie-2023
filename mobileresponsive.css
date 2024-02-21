@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@media screen and (max-width:767px) {
+#back1{
+  background-image: url('images/Mobile-header-2.webp');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  height: auto;
+} 
+
+.widthpattern {
+  max-width: 90vw;
+  width: 90vw;
+  padding-bottom: 20em;
+  }
+
+#firstcontent {
+  width: auto;
+  height: auto;
+  padding: 1em;
+  
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 1em;
+    
+  justify-content: center;
+  text-align: center;
+}
+
+#logotopoimg {
+  width: 100%;
+  max-width: 57%;
+  margin-bottom: -1.5em;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+h1 {
+  font-size: 1.5em;
+  line-height: 1.1em;
+  }
+  
+#firstcontent ul{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+#firstcontent ul li{
+  width: 100%;
+  font: 400 1.1em --pfont;
+}  
+
+#firstcontent ul li:first-child{
+  padding-bottom: 0em;
+  }
+
+#firstcontent p {
+font-size: 1.1em;
+line-height: 1.2em;
+}
+
+/* FORMS */
+form input:nth-of-type(2), form input:nth-of-type(3), form input:nth-of-type(4){
+  width: 100% ;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+
+/* SECOND SECTION */
+#back2 {
+height: auto;
+width: auto;
+
+border-block-start: 1px solid;
+border-image-source: radial-gradient(circle at top center, var(--lightgold), var(--azulescuro) 60%);
+border-image-slice: 1;
+ }
+
+#secondcontent {
+width: 90vw;
+}
+
+h2 {
+  font-size:1.5em;
+}
+
+#secondcontent p {
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+#secondcontent button {
+  width: 70%;
+}
+
+/* THIRD SECTION */
+#back3{
+  width: auto;
+  margin: auto;
+  padding: 3em 1em;
+}
+
+#back3 h2,  #back4 h2{
+  font-size: 2em;
+}
+
+.boxes {
+width: 48%;
+ }
+
+.boxes img {
+  max-width: 50%;
+  border-radius: 6px;
+}
+
+/* FOURTH SECTION */
+#back4{
+  background-image: url('images/Rodape-imagem-mobile.webp');  
+  height: 906px;
+ }
+
+#widthpattern2{
+ width: 90vw;
+ }
+
+#insidecontent {
+ display: flex;
+ flex-direction: column;
+ text-align: left;
+ justify-content: flex-start;
+ width: 100vw;
+}
+
+#aboutp {
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+#back5 {
+  border-block-start: 1px solid;
+  border-image-source: radial-gradient(circle at top center, var(--lightgold), var(--azulescuro) 60%);
+  border-image-slice: 1;
+  }
+
+#footercontent p:nth-child(1) {
+  font-size: 0.9em;
+  line-height: 1.2em;
+}
+
+#footercontent a:nth-of-type(1), #footercontent a:nth-of-type(2) {
+  color: var(--white);
+  font-size: 0.8em;
+  line-height: 1.2em;
+  font-family: var(--pfont);
+} 
+
+}
