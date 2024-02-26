@@ -2,7 +2,7 @@
 
 <b>[CLICK HERE](https://henriquenagy.github.io/Salespage-workshopie-2023/) TO SEE THE ENTIRE PAGE</b>
 
-My second page made from scratch that a created for a client. This is a Landing page which invites the lead to a presencial workshop, by taking name, email and phone contact.
+My second page made from scratch that a created for a client. It's a Landing page that invites the lead to a presencial workshop, by taking name, email and phone contact.
 
 <b>TOOLS USED: </b> 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
